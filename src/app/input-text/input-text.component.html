@@ -1,0 +1,5 @@
+<div>
+    <input #box (keyup)="onKey(box.value)"/>
+    <button (click)="processInput()">Process</button>
+    <p>{{ processedResult }}</p>
+</div>
